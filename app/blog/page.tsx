@@ -1,8 +1,17 @@
 import Link from 'next/link'
 
+interface BlogPost {
+  slug: string
+  title: string
+  excerpt: string
+  date: string
+  readTime?: number
+  tags?: string[]
+}
+
 export default function Blog() {
   // We'll populate this with actual posts later
-  const posts: any[] = []
+  const posts: BlogPost[] = []
 
   return (
     <div className="max-w-4xl mx-auto">

@@ -1,7 +1,14 @@
 import Link from 'next/link'
 
+interface BlogPost {
+  slug: string
+  title: string
+  excerpt: string
+  date: string
+}
+
 export default function Home() {
-  const recentPosts = [
+  const recentPosts: BlogPost[] = [
     // We'll populate this with actual posts later
   ]
 
@@ -49,7 +56,7 @@ export default function Home() {
         <h2 className="text-2xl font-bold mb-6">Recent Articles</h2>
         {recentPosts.length > 0 ? (
           <div className="grid gap-6">
-            {recentPosts.map((post: any) => (
+            {recentPosts.map((post) => (
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
