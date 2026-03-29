@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://mirantdesai.github.io/sitemap.xml',
+    sitemap: 'https://mirantdesai23.github.io/sitemap.xml',
   }
 }

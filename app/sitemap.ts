@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://mirantdesai.github.io'
+  const baseUrl = 'https://mirantdesai23.github.io'
 
   return [
     {
