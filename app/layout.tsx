@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mirant Desai | Founder & CEO at PlanAI",
   description: "Personal website and blog of Mirant Desai - Founder of PlanAI, building AI-powered business intelligence tools",
   keywords: ["Mirant Desai", "PlanAI", "AI", "Business Intelligence", "Entrepreneurship", "Tech Blog"],
+  verification: {
+    google: "qYBl1KKwIMPO4rMyw1106CN1oUST6KO6PsKhlK6H3n4"
+  }
 };
 
 export default function RootLayout({
