@@ -62,7 +62,7 @@ export default function RootLayout({
                     PlanAI
                   </a>
                   <a
-                    href="https://linkedin.com/in/mirantdesai"
+                    href="https://linkedin.com/in/desaimirant"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-white transition-colors"

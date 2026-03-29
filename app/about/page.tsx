@@ -57,8 +57,8 @@ export default function About() {
             >
               Visit PlanAI
             </a>
-            <a 
-              href="https://linkedin.com/in/mirantdesai"
+            <a
+              href="https://linkedin.com/in/desaimirant"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-lg transition-colors border border-white/20"
