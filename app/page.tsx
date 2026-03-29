@@ -35,8 +35,8 @@ export default function Home() {
       <section className="mb-16 p-8 bg-white/5 rounded-xl border border-white/10">
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <p className="text-gray-300 leading-relaxed mb-4">
-          I'm the founder of PlanAI, an AI-powered enterprise business software platform for strategic planning
-          and financial analysis. I'm passionate about building tools that help businesses make better decisions
+          I&apos;m the founder of PlanAI, an AI-powered enterprise business software platform for strategic planning
+          and financial analysis. I&apos;m passionate about building tools that help businesses make better decisions
           through intelligent automation and data-driven insights.
         </p>
         <Link href="/about" className="text-blue-400 hover:text-blue-300 transition-colors">
