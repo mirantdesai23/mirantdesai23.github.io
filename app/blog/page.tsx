@@ -10,8 +10,16 @@ interface BlogPost {
 }
 
 export default function Blog() {
-  // We'll populate this with actual posts later
-  const posts: BlogPost[] = []
+  const posts: BlogPost[] = [
+    {
+      slug: 'planai-collaboration-branching',
+      title: "PlanAI's Collaboration & Branching Product Feature",
+      excerpt: "How real-time collaboration and intelligent branching transform strategic planning from a siloed exercise into a synchronized team activity.",
+      date: 'March 29, 2026',
+      readTime: 2,
+      tags: ['PlanAI', 'Product', 'Collaboration', 'Strategic Planning']
+    }
+  ]
 
   return (
     <div className="max-w-4xl mx-auto">
