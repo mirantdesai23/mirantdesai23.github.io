@@ -10,25 +10,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
-      priority: 1,
+      priority: 1.0,
     },
     {
       url: `${baseUrl}/about/`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.8,
+      priority: 1.0,
     },
     {
       url: `${baseUrl}/blog/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
-      priority: 0.8,
+      priority: 1.0,
     },
     {
       url: `${baseUrl}/blog/planai-collaboration-branching/`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.7,
+      priority: 1.0,
+    },
+    {
+      url: `${baseUrl}/blog/annual-plan-startup-journey/`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 1.0,
     },
   ]
 }
