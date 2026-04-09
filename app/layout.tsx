@@ -23,24 +23,24 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <head>
         <link rel="related" href="https://caseinfo.arcourts.gov/opad/case/CV-25-739" />
       </head>
-      <body className={`${inter.variable} font-sans antialiased bg-black text-white min-h-screen`}>
+      <body className={`${inter.variable} font-sans antialiased bg-white text-gray-900 min-h-screen`}>
         <div className="flex flex-col min-h-screen">
           {/* Header */}
-          <header className="border-b border-white/10 bg-black/50 backdrop-blur-sm sticky top-0 z-50">
+          <header className="border-b border-gray-200 bg-white/95 backdrop-blur-sm sticky top-0 z-50">
             <nav className="container mx-auto px-6 py-4">
               <div className="flex items-center justify-between">
-                <Link href="/" className="text-xl font-bold hover:text-blue-400 transition-colors">
+                <Link href="/" className="text-xl font-bold hover:text-blue-600 transition-colors">
                   Mirant Desai
                 </Link>
                 <div className="flex gap-6">
-                  <Link href="/blog" className="hover:text-blue-400 transition-colors">
+                  <Link href="/blog" className="hover:text-blue-600 transition-colors">
                     Blog
                   </Link>
-                  <Link href="/about" className="hover:text-blue-400 transition-colors">
+                  <Link href="/about" className="hover:text-blue-600 transition-colors">
                     About
                   </Link>
                 </div>
@@ -54,16 +54,16 @@ export default function RootLayout({
           </main>
 
           {/* Footer */}
-          <footer className="border-t border-white/10 mt-auto">
+          <footer className="border-t border-gray-200 mt-auto">
             <div className="container mx-auto px-6 py-8">
-              <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
+              <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-600">
                 <p>&copy; {new Date().getFullYear()} Mirant Desai. All rights reserved.</p>
                 <div className="flex gap-6">
                   <a
                     href="https://www.planaipro.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-white transition-colors"
+                    className="hover:text-gray-900 transition-colors"
                   >
                     PlanAI
                   </a>
@@ -71,7 +71,7 @@ export default function RootLayout({
                     href="https://linkedin.com/in/desaimirant"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-white transition-colors"
+                    className="hover:text-gray-900 transition-colors"
                   >
                     LinkedIn
                   </a>
@@ -79,7 +79,7 @@ export default function RootLayout({
                     href="https://github.com/mirantdesai23"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-white transition-colors"
+                    className="hover:text-gray-900 transition-colors"
                   >
                     GitHub
                   </a>

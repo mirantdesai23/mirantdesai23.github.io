@@ -16,10 +16,10 @@ export default function Home() {
     <div className="max-w-4xl mx-auto">
       {/* Hero Section */}
       <section className="mb-16">
-        <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+        <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
           Mirant Desai
         </h1>
-        <p className="text-xl text-gray-300 mb-8">
+        <p className="text-xl text-gray-700 mb-8">
           Founder & CEO at PlanAI | Building AI-powered business intelligence tools
         </p>
         <div className="flex gap-4 flex-wrap">
@@ -31,7 +31,7 @@ export default function Home() {
           </Link>
           <Link
             href="/about"
-            className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-lg transition-colors border border-white/20"
+            className="px-6 py-3 bg-gray-100 hover:bg-gray-200 text-gray-900 rounded-lg transition-colors border border-gray-300"
           >
             About Me
           </Link>
@@ -39,39 +39,39 @@ export default function Home() {
       </section>
 
       {/* About Preview */}
-      <section className="mb-16 p-8 bg-white/5 rounded-xl border border-white/10">
-        <h2 className="text-2xl font-bold mb-4">About Me</h2>
-        <p className="text-gray-300 leading-relaxed mb-4">
+      <section className="mb-16 p-8 bg-gray-50 rounded-xl border border-gray-200">
+        <h2 className="text-2xl font-bold mb-4 text-gray-900">About Me</h2>
+        <p className="text-gray-700 leading-relaxed mb-4">
           I&apos;m the founder of PlanAI, an AI-powered enterprise business software platform for strategic planning
           and financial analysis. I&apos;m passionate about building tools that help businesses make better decisions
           through intelligent automation and data-driven insights.
         </p>
-        <Link href="/about" className="text-blue-400 hover:text-blue-300 transition-colors">
+        <Link href="/about" className="text-blue-600 hover:text-blue-700 transition-colors">
           Learn more →
         </Link>
       </section>
 
       {/* Blog Preview */}
       <section>
-        <h2 className="text-2xl font-bold mb-6">Recent Articles</h2>
+        <h2 className="text-2xl font-bold mb-6 text-gray-900">Recent Articles</h2>
         {recentPosts.length > 0 ? (
           <div className="grid gap-6">
             {recentPosts.map((post) => (
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
-                className="p-6 bg-white/5 rounded-xl border border-white/10 hover:border-white/20 transition-all group"
+                className="p-6 bg-gray-50 rounded-xl border border-gray-200 hover:border-gray-300 transition-all group"
               >
-                <h3 className="text-xl font-semibold mb-2 group-hover:text-blue-400 transition-colors">
+                <h3 className="text-xl font-semibold mb-2 text-gray-900 group-hover:text-blue-600 transition-colors">
                   {post.title}
                 </h3>
-                <p className="text-gray-400 mb-3">{post.excerpt}</p>
+                <p className="text-gray-600 mb-3">{post.excerpt}</p>
                 <div className="text-sm text-gray-500">{post.date}</div>
               </Link>
             ))}
           </div>
         ) : (
-          <div className="p-8 bg-white/5 rounded-xl border border-white/10 text-center text-gray-400">
+          <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 text-center text-gray-600">
             <p>Articles coming soon...</p>
             <p className="mt-2 text-sm">Check back later for technical deep dives and insights!</p>
           </div>
