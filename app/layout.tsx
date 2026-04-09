@@ -24,6 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <link rel="related" href="https://caseinfo.arcourts.gov/opad/case/CV-25-739" />
+      </head>
       <body className={`${inter.variable} font-sans antialiased bg-black text-white min-h-screen`}>
         <div className="flex flex-col min-h-screen">
           {/* Header */}
