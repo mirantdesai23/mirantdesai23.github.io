@@ -9,7 +9,18 @@ interface BlogPost {
 
 export default function Home() {
   const recentPosts: BlogPost[] = [
-    // We'll populate this with actual posts later
+    {
+      slug: 'annual-plan-startup-journey',
+      title: 'Your First Year with PlanAI: A 12-Month Startup Roadmap',
+      excerpt: "A founder's perspective on how PlanAI's annual subscription maps to every critical milestone in your startup's first year—from market validation to go-live integrations.",
+      date: 'March 30, 2026'
+    },
+    {
+      slug: 'planai-collaboration-branching',
+      title: "PlanAI's Collaboration & Branching Product Feature",
+      excerpt: 'How real-time collaboration and intelligent branching transform strategic planning from a siloed exercise into a synchronized team activity.',
+      date: 'March 29, 2026'
+    }
   ]
 
   return (
@@ -49,6 +60,53 @@ export default function Home() {
         <Link href="/about" className="text-blue-600 hover:text-blue-700 transition-colors">
           Learn more →
         </Link>
+      </section>
+
+      {/* Social Links */}
+      <section className="mb-16">
+        <h2 className="text-2xl font-bold mb-6 text-gray-900">Connect With Me</h2>
+        <div className="flex flex-wrap gap-4">
+          <a
+            href="https://www.pinterest.com/mirantdesai1/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-gray-100 hover:bg-gray-200 text-gray-900 rounded-lg transition-colors border border-gray-300"
+          >
+            Pinterest
+          </a>
+          <a
+            href="https://www.youtube.com/@MirantDesai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-gray-100 hover:bg-gray-200 text-gray-900 rounded-lg transition-colors border border-gray-300"
+          >
+            YouTube
+          </a>
+          <a
+            href="https://soundcloud.com/mirant-desai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-gray-100 hover:bg-gray-200 text-gray-900 rounded-lg transition-colors border border-gray-300"
+          >
+            SoundCloud
+          </a>
+          <a
+            href="https://linkedin.com/in/desaimirant"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-gray-100 hover:bg-gray-200 text-gray-900 rounded-lg transition-colors border border-gray-300"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com/mirantdesai23"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-gray-100 hover:bg-gray-200 text-gray-900 rounded-lg transition-colors border border-gray-300"
+          >
+            GitHub
+          </a>
+        </div>
       </section>
 
       {/* Blog Preview */}

@@ -7,10 +7,10 @@ export const metadata: Metadata = {
 
 export default function BlogPost() {
   return (
-    <article className="max-w-3xl mx-auto prose prose-invert prose-lg">
+    <article className="max-w-3xl mx-auto prose prose-lg">
       <h1>Your First Year with PlanAI: A 12-Month Startup Roadmap</h1>
 
-      <div className="text-gray-400 mb-8 text-sm">
+      <div className="text-gray-600 mb-8 text-sm">
         By Mirant Desai · March 30, 2026 · 5 min read
       </div>
 
@@ -108,15 +108,15 @@ export default function BlogPost() {
         clearer.
       </p>
 
-      <hr className="my-8 border-white/10" />
+      <hr className="my-8 border-gray-200" />
 
-      <p className="text-sm text-gray-400">
+      <p className="text-sm text-gray-600">
         Learn more about PlanAI&apos;s annual subscription at{" "}
         <a
           href="https://www.planaipro.com/product-news/annual-plan-startup-journey"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-400 hover:text-blue-300"
+          className="text-blue-600 hover:text-blue-700"
         >
           planaipro.com
         </a>

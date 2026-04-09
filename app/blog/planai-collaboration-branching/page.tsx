@@ -7,10 +7,10 @@ export const metadata: Metadata = {
 
 export default function BlogPost() {
   return (
-    <article className="max-w-3xl mx-auto prose prose-invert prose-lg">
+    <article className="max-w-3xl mx-auto prose prose-lg">
       <h1>PlanAI&apos;s Collaboration & Branching Product Feature</h1>
 
-      <div className="text-gray-400 mb-8 text-sm">
+      <div className="text-gray-600 mb-8 text-sm">
         March 29, 2026 · 2 min read
       </div>
 
@@ -109,15 +109,15 @@ export default function BlogPost() {
         strategic planning from a siloed exercise into a synchronized team activity.
       </p>
 
-      <hr className="my-8 border-white/10" />
+      <hr className="my-8 border-gray-200" />
 
-      <p className="text-sm text-gray-400">
+      <p className="text-sm text-gray-600">
         Originally published on{" "}
         <a
           href="https://medium.com/@desaimirant9/planais-collaboration-branching-product-feature-1b2568926f22"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-400 hover:text-blue-300"
+          className="text-blue-600 hover:text-blue-700"
         >
           Medium
         </a>
