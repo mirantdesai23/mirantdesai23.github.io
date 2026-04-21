@@ -22,7 +22,10 @@ export default function Legal() {
           </p>
           <ul className="list-disc list-inside text-gray-700 space-y-3 ml-4">
             <li>
-              <strong>Whistle-blower disclosures and objective merit rebut pretextual performance reviews.</strong>
+              <strong>
+                The legal issues remain disputed, and the matter is on appeal. My position is that the record
+                undermines any pretextual performance narrative and supports my whistle-blower disclosures.
+              </strong>
             </li>
             <li>
               The multi-forum nature of these proceedings has created substantial financial and operational
