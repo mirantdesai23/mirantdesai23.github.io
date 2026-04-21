@@ -22,8 +22,7 @@ export default function Legal() {
           </p>
           <ul className="list-disc list-inside text-gray-700 space-y-3 ml-4">
             <li>
-              My conduct has been consistent with federal whistleblower protections and statutory immunity
-              provisions designed to protect employees who report potential violations of law.
+              <strong>Whistle-blower disclosures and objective merit rebut pretextual performance reviews.</strong>
             </li>
             <li>
               The multi-forum nature of these proceedings has created substantial financial and operational
