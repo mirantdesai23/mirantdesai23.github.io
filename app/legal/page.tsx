@@ -23,8 +23,9 @@ export default function Legal() {
           <ul className="list-disc list-inside text-gray-700 space-y-3 ml-4">
             <li>
               <strong>
-                The legal issues remain disputed, and the matter is on appeal. My position is that the record
-                undermines any pretextual performance narrative and supports my whistle-blower disclosures.
+                The dispute includes allegations of retaliation related to whistle-blower petitioning, including
+                claims of tortious interference and misuse of state processes; those allegations remain contested
+                and are being addressed through the courts.
               </strong>
             </li>
             <li>
