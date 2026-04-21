@@ -35,10 +35,6 @@ export default function Legal() {
               </strong>
             </li>
             <li>
-              The multi-forum nature of these proceedings has created substantial financial and operational
-              challenges for a pro se individual.
-            </li>
-            <li>
               Standard discovery safeguards, including document tracking through Bates numbering, are
               appropriate and necessary to ensure the integrity of the litigation process.
             </li>
