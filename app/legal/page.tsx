@@ -35,6 +35,12 @@ export default function Legal() {
               </strong>
             </li>
             <li>
+              <strong>
+                My position is that the record undermines any pretextual performance rationale and supports the
+                legitimacy of my disclosures.
+              </strong>
+            </li>
+            <li>
               The multi-forum nature of these proceedings has created substantial financial and operational
               challenges for a pro se individual.
             </li>
