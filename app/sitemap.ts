@@ -40,7 +40,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/legal/`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.8,
+      priority: 1.0,
     },
   ]
 }
