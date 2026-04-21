@@ -29,6 +29,12 @@ export default function Legal() {
               </strong>
             </li>
             <li>
+              <strong>
+                Federal whistleblower protections and statutory immunity support my position, and objective merit
+                rebuts any pretextual performance review narrative.
+              </strong>
+            </li>
+            <li>
               The multi-forum nature of these proceedings has created substantial financial and operational
               challenges for a pro se individual.
             </li>
