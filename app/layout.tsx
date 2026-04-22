@@ -3,12 +3,15 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 
+const siteUrl = "https://mirantdesai.github.io";
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "Mirant Desai | Founder & CEO at PlanAI",
   description: "Personal website and blog of Mirant Desai - Founder of PlanAI, building AI-powered business intelligence tools",
   keywords: ["Mirant Desai", "PlanAI", "AI", "Business Intelligence", "Entrepreneurship", "Tech Blog"],

@@ -2,42 +2,42 @@ import { MetadataRoute } from 'next'
 
 export const dynamic = 'force-static'
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://mirantdesai23.github.io'
+const siteUrl = 'https://mirantdesai.github.io'
 
+export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: `${baseUrl}/`,
+      url: `${siteUrl}/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1.0,
     },
     {
-      url: `${baseUrl}/about/`,
+      url: `${siteUrl}/about/`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1.0,
     },
     {
-      url: `${baseUrl}/blog/`,
+      url: `${siteUrl}/blog/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1.0,
     },
     {
-      url: `${baseUrl}/blog/planai-collaboration-branching/`,
+      url: `${siteUrl}/blog/planai-collaboration-branching/`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1.0,
     },
     {
-      url: `${baseUrl}/blog/annual-plan-startup-journey/`,
+      url: `${siteUrl}/blog/annual-plan-startup-journey/`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1.0,
     },
     {
-      url: `${baseUrl}/legal/`,
+      url: `${siteUrl}/legal/`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1.0,

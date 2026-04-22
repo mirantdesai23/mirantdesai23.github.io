@@ -2,12 +2,14 @@ import { MetadataRoute } from 'next'
 
 export const dynamic = 'force-static'
 
+const siteUrl = 'https://mirantdesai.github.io'
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://mirantdesai23.github.io/sitemap.xml',
+    sitemap: `${siteUrl}/sitemap.xml`,
   }
 }
