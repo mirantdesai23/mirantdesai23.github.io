@@ -28,6 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="google-site-verification" content="HdVMGlNyP7A1mMCWVjwsKW6h8NzivjsuACza31OX3Kc" />
         <link rel="related" href="https://caseinfo.arcourts.gov/opad/case/CV-25-739" />
       </head>
       <body className={`${inter.variable} font-sans antialiased bg-white text-gray-900 min-h-screen`}>
