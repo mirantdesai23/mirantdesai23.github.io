@@ -47,11 +47,35 @@ export default function Legal() {
 
         <div className="mb-12 p-8 bg-gray-50 rounded-xl border border-gray-200">
           <h2 className="text-2xl font-semibold mb-6 text-gray-900">Public Record &amp; Search Results</h2>
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 leading-relaxed mb-4">
             Court filings, docket entries, and related documents in these proceedings are matters of public
             record and may appear in online search results. This page is provided to offer additional context
             for anyone reviewing such materials.
           </p>
+          <ul className="list-disc list-inside text-gray-700 space-y-3 ml-4">
+            <li>
+              PacerMonitor public case listing{' '}
+              <a
+                href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.pacermonitor.com/public/case/58059049/Desai_v_Walmart_Inc"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-700 transition-colors"
+              >
+                [1]
+              </a>
+            </li>
+            <li>
+              Justia docket listing{' '}
+              <a
+                href="https://dockets.justia.com/docket/circuit-courts/ca8/26-1704/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-700 transition-colors"
+              >
+                [2]
+              </a>
+            </li>
+          </ul>
         </div>
 
         <div className="p-8 bg-gradient-to-br from-orange-50 to-red-50 rounded-xl border border-orange-200">
