@@ -1,4 +1,12 @@
+import type { Metadata } from "next";
 import Link from 'next/link'
+
+export const metadata: Metadata = {
+  other: {
+    "public-record-pacermonitor": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.pacermonitor.com/public/case/58059049/Desai_v_Walmart_Inc",
+    "public-record-justia": "https://dockets.justia.com/docket/circuit-courts/ca8/26-1704/",
+  },
+};
 
 interface BlogPost {
   slug: string
