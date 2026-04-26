@@ -25,6 +25,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
     },
     {
+      url: `${siteUrl}/blog/60-day-sprint-planai/`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 1.0,
+    },
+    {
       url: `${siteUrl}/blog/planai-collaboration-branching/`,
       lastModified: new Date(),
       changeFrequency: 'monthly',

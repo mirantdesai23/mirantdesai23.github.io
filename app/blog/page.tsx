@@ -12,6 +12,14 @@ interface BlogPost {
 export default function Blog() {
   const posts: BlogPost[] = [
     {
+      slug: '60-day-sprint-planai',
+      title: 'The 60-Day Sprint at PlanAI: Building the Product Foundation for EdTech B2C and Enterprise AI',
+      excerpt: "How PlanAI's focused 60-day sprint established the foundational product architecture for serving both B2C education and enterprise AI applications.",
+      date: 'April 26, 2026',
+      readTime: 5,
+      tags: ['PlanAI', 'Product', 'Strategy', 'Development']
+    },
+    {
       slug: 'annual-plan-startup-journey',
       title: 'Your First Year with PlanAI: A 12-Month Startup Roadmap',
       excerpt: "A founder's perspective on how PlanAI's annual subscription maps to every critical milestone in your startup's first year—from market validation to go-live integrations.",
