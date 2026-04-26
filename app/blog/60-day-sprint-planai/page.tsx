@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "The 60-Day Sprint at PlanAI: Building the Product Foundation for EdTech B2C and Enterprise AI | Mirant Desai",
-  description: "How PlanAI's focused 60-day sprint established the foundational product architecture for serving both B2C education and enterprise AI applications.",
+  description: "How PlanAI&apos;s focused 60-day sprint established the foundational product architecture for serving both B2C education and enterprise AI applications.",
 };
 
 export default function BlogPost() {
@@ -16,7 +16,7 @@ export default function BlogPost() {
 
       <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
         <p className="text-gray-700 mb-4">
-          This article explores how PlanAI's concentrated 60-day development sprint created the architectural and product foundation necessary to serve both B2C education customers and enterprise AI applications simultaneously.
+          This article explores how PlanAI&apos;s concentrated 60-day development sprint created the architectural and product foundation necessary to serve both B2C education customers and enterprise AI applications simultaneously.
         </p>
         <p className="text-gray-700 mb-4">
           The sprint focused on building core platform capabilities, establishing data infrastructure, and creating the flexibility needed to adapt to diverse market requirements while maintaining system coherence.
