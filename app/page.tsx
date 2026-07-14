@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -41,25 +42,37 @@ export default function Home() {
     <div className="max-w-4xl mx-auto">
       {/* Hero Section */}
       <section className="mb-16">
-        <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-          Mirant Desai
-        </h1>
-        <p className="text-xl text-gray-700 mb-8">
-          Founder & CEO at PlanAI | Building AI-powered business intelligence tools
-        </p>
-        <div className="flex gap-4 flex-wrap">
-          <Link
-            href="/blog"
-            className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
-          >
-            Read Blog
-          </Link>
-          <Link
-            href="/about"
-            className="px-6 py-3 bg-gray-100 hover:bg-gray-200 text-gray-900 rounded-lg transition-colors border border-gray-300"
-          >
-            About Me
-          </Link>
+        <div className="flex flex-col-reverse gap-8 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              Mirant Desai
+            </h1>
+            <p className="text-xl text-gray-700 mb-8">
+              Founder & CEO at PlanAI | Building AI-powered business intelligence tools
+            </p>
+            <div className="flex gap-4 flex-wrap">
+              <Link
+                href="/blog"
+                className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
+              >
+                Read Blog
+              </Link>
+              <Link
+                href="/about"
+                className="px-6 py-3 bg-gray-100 hover:bg-gray-200 text-gray-900 rounded-lg transition-colors border border-gray-300"
+              >
+                About Me
+              </Link>
+            </div>
+          </div>
+          <Image
+            src="/pic.JPEG"
+            alt="Mirant Desai"
+            width={140}
+            height={140}
+            priority
+            className="h-28 w-28 rounded-full border border-gray-200 object-cover shadow-sm sm:h-36 sm:w-36"
+          />
         </div>
       </section>
 
